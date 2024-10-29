@@ -29,7 +29,6 @@ const Footer: React.FC = () => {
         </div>
 
         <div className='flex items-center justify-between gap-4 md:flex-row flex-col'>
-         
           <div className='flex items-center justify-center'>
             <FaMapMarkerAlt className=' text-blue-500' />
             <span className='text-black'>Mumbai</span>
@@ -73,6 +72,7 @@ const Footer: React.FC = () => {
             passHref>
             <FaInstagram className='h-6 w-6 mr-4 cursor-pointer' />
           </Link>
+         
         </div>
       </div>
       <div className='flex justify-center items-center text-blue-500 gap-4 mb-4 md:-mt-3 mt-4'>
@@ -91,7 +91,8 @@ const Footer: React.FC = () => {
           className=''>
           Carrers Button
         </Link>
-        {' '}
+        
+       {' '}
       </div>
       <div className='text-center text-xs text-gray-600'>
         <p>&copy; {currentYear} FinStar Avenue Pvt Ltd</p>
