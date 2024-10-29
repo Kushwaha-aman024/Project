@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
       <div className='flex justify-between px-12 items-center flex-col md:flex-row py-2'>
         <div className=''>
           <Image
-            src='/logo.png'
+            src='/icon1.png'
             alt='Logo'
             width={60}
             height={50}
@@ -29,6 +29,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className='flex items-center justify-between gap-4 md:flex-row flex-col'>
+        
           <div className='flex items-center justify-center'>
             <FaMapMarkerAlt className=' text-blue-500' />
             <span className='text-black'>Mumbai</span>
@@ -91,7 +92,7 @@ const Footer: React.FC = () => {
           className=''>
           Carrers Button
         </Link>
-        
+       
        {' '}
       </div>
       <div className='text-center text-xs text-gray-600'>
